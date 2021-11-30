@@ -310,7 +310,7 @@ header .navbar ul li a:hover{
     display: flex;
     justify-content: center;
     flex-flow: column;
-    padding:0 35rem;
+    padding:0 15rem;
 }
 
 .portfolio h3{
@@ -340,7 +340,7 @@ header .navbar ul li a:hover{
 .portfolio .box-container{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: content;
     flex-wrap: wrap;
     padding:2rem 0;
 }
@@ -357,7 +357,7 @@ header .navbar ul li a:hover{
 .portfolio .box-container .box img{
     height:100%;
     width:100%;
-    object-fit: scale-down;
+    object-fit: contain;
 }
 
 .portfolio .box-container .box:hover img{
